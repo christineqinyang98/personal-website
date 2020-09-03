@@ -11,7 +11,8 @@ class Contact extends Component {
       var country = this.props.data.address.country;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var message = this.props.data.contactmessage;
+        var message = this.props.data.contactmessage;
+        var resumeDownload = this.props.data.resumedownload;
     }
 
     return (
@@ -24,25 +25,24 @@ class Contact extends Component {
                 <h1><span>Get In Touch.</span></h1>
 
             </div>
-            <div className="ten columns">
-
-                  <p className="lead">{message}</p>
-
+            <div className="columns contact-details">
+                    <h2>Contact Details</h2>
+                <p className="address">
+                    <span>{name}</span><br />
+                    <span>{city}, {state}, {country}</span> <br />
+                    <span>{phone}</span><br />
+                    <span>{email}</span>
+                </p>
             </div>
-
-            <aside className="four columns footer-widgets">
-                <div className="widget widget_contact">
-
-					    <h4>Address and Phone</h4>
-					    <p className="address">
-						    {name}<br />
-						    {city}, {state} {country}<br />
-                            <span>{phone}</span> <br />
-                            <span>{email}</span>
-					    </p>
-				    </div>
-            </aside>
-         </div>
+            <div className="columns download">
+                <p>
+                    <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                </p>
+            </div>
+    </div>
+    <div className="widget widget_contact">
+				
+    </div>
       </section>
     );
   }

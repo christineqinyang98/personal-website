@@ -29,3 +29,13 @@
                   </div>
 					</fieldset>
 				   </form>
+
+About.js
+                  <p className="lead">{message}</p>
+                    <h4>Address and Phone</h4>
+                    <p className="contact-details">
+                        {name}<br />
+                        {city}, {state} {country}<br />
+                        <span>{phone}</span> <br />
+                        <span>{email}</span>
+                    </p>
