@@ -1,24 +1,56 @@
 import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
+import Carousel from 'react-elastic-carousel';
 
 const images = [
     {
-        original: 'images/about.jpg',
+        className: 'about-pic',
+        src: 'images/about.jpg',
+        altText: 'about pic'
     },
     {
-        original: "images/Western.jpg",
+        className: 'about-pic',
+        src: 'images/Western.jpg',
+        altText: 'western pic'
     },
     {
-        original: "images/musicbox.jpg",
+        className: 'about-pic',
+        src: 'images/musicbox.jpeg',
+        altText: 'musicbox pic'
     }
 ];
 
+const interests = [
+    {
+        src: 'images/hobbies.jpg',
+        altText: 'about pic'
+    },
+    {
+        src: 'images/baking.jpg',
+        altText: 'western pic'
+    },
+    {
+        src: 'images/himym.jpg',
+        altText: 'musicbox pic'
+    },
+    {
+        src: 'images/office.jpg',
+        altText: 'musicbox pic'
+    },
+    {
+        src: 'images/oasis-1.jpg',
+        altText: 'musicbox pic'
+    },
+    {
+        src: 'images/nct.jpg',
+        altText: 'musicbox pic'
+    }
+];
 
 class About extends Component {
   render() {
 
     if(this.props.data){
-        var aboutpic = "images/about.jpg";
         var bio = this.props.data.bio;
         var hobbies = this.props.data.hobbies;
         var hobbiespic = "images/hobbies.jpg";
@@ -29,7 +61,8 @@ class About extends Component {
             <h1>About Me</h1>
             <div className="row">
                 <div className="six columns">
-                    <img className="about-pic" src={aboutpic} alt="stock image of relaxation" />
+                    <Carousel itemsToShow={1} showArrows={false} children={images.map(images => <img src={images.src}/>)}>
+                    </Carousel>
                 </div>
                 <div className="six columns main-col">
                     <h2>Introduction</h2>
@@ -42,7 +75,8 @@ class About extends Component {
                     <p className="hobbies">{hobbies}</p>
                 </div>
                 <div className="six columns">
-                    <img className="hobbies-pic" src={hobbiespic} alt="stock image of relaxation" />
+                    <Carousel itemsToShow={1} showArrows={false} children={interests.map(interests => <img src={interests.src} />)}>
+                    </Carousel>
                 </div>
             </div>
       </section>

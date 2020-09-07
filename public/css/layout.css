@@ -218,21 +218,27 @@ ul#nav li a:active { background-color: transparent !important; }
 }
 #about h2 {
    font: 'opensans-bold', sans-serif;
-   padding-top: 50px;
+   padding-top: 70px;
    color: #999;
 }
-#about aboutpic {
+#about img {
+    height: 350px;
+    width: 450px;
+    object-fit: cover;
 }
 #about p {
    color: #fff;
+   margin-right: -100px;
 }
 #about h2.hobbies{
     text-align: right;
-    padding-top: 70px;
+    padding-top: 80px;
 }
-#about p.hobbies{
+#about p.hobbies {
     text-align: right;
     color: #fff;
+    margin-right: 0px;
+    margin-left: -100px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -991,7 +997,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #fff;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -999,9 +1005,12 @@ footer .social-links li:first-child { margin-left: 0; }
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 
+   
    color: #111;
    font-size: 21px;
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover {
+    background-color: #11ABB0;
+}
