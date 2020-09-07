@@ -71,7 +71,6 @@ header .banner-text h3 {
     text-align: center;
     margin: 0 350px;
     width: 70%;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -208,21 +207,32 @@ ul#nav li a:active { background-color: transparent !important; }
 
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
-
+#about row{
+    padding-bottom: 50px;
+}
+#about h1 {
+    font: 'opensans-bold', sans-serif;
+    margin-top: -30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
-   margin-bottom: 12px;
+   font: 'opensans-bold', sans-serif;
+   padding-top: 50px;
+   color: #999;
+}
+#about aboutpic {
 }
 #about p {
-   line-height: 30px;
-   color: #7A7A7A;
+   color: #fff;
 }
-#about .profile-pic {
-   position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+#about h2.hobbies{
+    text-align: right;
+    padding-top: 70px;
+}
+#about p.hobbies{
+    text-align: right;
+    color: #fff;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -325,17 +335,16 @@ ul#nav li a:active { background-color: transparent !important; }
 	top: -36px;
 }
 .bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
-
-   margin: 0;
-   padding-right: 24px;
-  	background: #313131;
-   display: inline-block;
-  	height: 42px;
-   line-height: 42px;
-   border-radius: 3px 0 0 3px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding-right: 24px;
+    background: #11ABB0;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 3px 0 0 3px;
 }
 /*
 .git {

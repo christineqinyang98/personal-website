@@ -2,9 +2,10 @@
   "main": {
     "name": "Christine Yang",
     "occupation": "4th Year Computer Science Student",
-    "description": "at Western University, who is interested in Web Development, Data Mining and Machine Learning, but also open to gaining further knowledge in all fields of technology",
+    "description": "who is interested in Web Development, Data Mining and Machine Learning, but also open to gaining further knowledge in all fields of technology",
     "image": "profilepic.jpg",
-    "bio": "I am a fourth year Computer Science student at Western University with extensive knowledge in multiple languages, such as Python, C# and Javascript. I am interested in Web Development and Machine learning, but also open to gaining further knowledge in all areas of technology.",
+    "bio": "I am a Computer Science Major at Western University, where I have gained experience with Python, Java and group coding projects. I was VP Finance and a volunteer of Musicbox Western, which is an organization that provides free musicbox lessons to vulnerable children. I'm also a member of the Women in Tech Society.",
+    "hobbies": "In my free time I like cooking, in particular baking. I also enjoy working out through running and swimming. When I'm feeling lazy, I like to pass time watching TV shows, and listening to music (with my favourite shows and artists to the right). As a CS major, I like learning new technologies and coding small projects based on these tools.",
     "contactmessage": "Below are my contact details:",
     "email": "cyang377@uwo.ca",
     "phone": "555-555-5555",
@@ -55,31 +56,31 @@
     "skills":[
       {
         "name":"Python",
-        "level":"60%"
+        "level":"50%"
       },
       {
-        "name":"C#",
-        "level":"55%"
+        "name":"Java",
+        "level":"40%"
       },
       {
         "name":"ReactJs",
+        "level":"30%"
+      },
+      {
+        "name":"HTML",
         "level":"50%"
       },
       {
         "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"Java",
         "level":"50%"
       },
       {
+        "name":"C#",
+        "level":"35%"
+      },
+      {
         "name":"Ruby",
-        "level":"80%"
+        "level":"20%"
       }
     ]
   },
