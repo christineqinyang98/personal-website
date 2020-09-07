@@ -199,7 +199,7 @@ ul#nav li a:active { background-color: transparent !important; }
 /* ------------------------------------------------------------------ */
 
 #about {
-    background: #d1d1e0;
+    background: #222;
     padding-top: 96px;
     padding-bottom: 66px;
     overflow: hidden;
@@ -215,6 +215,7 @@ ul#nav li a:active { background-color: transparent !important; }
     margin-top: -30px;
     margin-bottom: 60px;
     text-align: center;
+    color: #11ABB0;
 }
 #about h2 {
    font: 'opensans-bold', sans-serif;
@@ -266,7 +267,7 @@ ul#nav li a:active { background-color: transparent !important; }
 
 #resume {
    background: #fff;
-   padding-top: 90px;
+   padding-top: 70px;
    padding-bottom: 72px;
    overflow: hidden;
 }
@@ -278,6 +279,7 @@ ul#nav li a:active { background-color: transparent !important; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   padding-bottom: 30px;
 }
 #resume h1 span {
    border-bottom: 3px solid #11ABB0;
@@ -296,8 +298,8 @@ ul#nav li a:active { background-color: transparent !important; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   font: 20px/26px 'librebaskerville', serif;
+   color: #11ABB0;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -445,17 +447,17 @@ ul#nav li a:active { background-color: transparent !important; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-    background: #2B2B2B;
-    padding-top: 90px;
+    background: #222;
+    padding-top: 70px;
     padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 1px;
-   text-align: center;
-   margin-bottom: 48px;
-   color: #fff;
+    font: 'opensans-semibold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #11ABB0;
 }
 
 /* Portfolio Content */
@@ -853,9 +855,9 @@ call-to-action .button {
    float: left;
    color: #ebeeee;
 }
-#contact h2 {
-    color: #11ABB0;
-}
+    #contact h2 {
+        color: #11ABB0;
+    }
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
    color: #EBEEEE;

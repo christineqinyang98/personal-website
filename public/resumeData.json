@@ -5,7 +5,7 @@
     "description": "who is interested in Web Development, Data Mining and Machine Learning, but also open to gaining further knowledge in all fields of technology",
     "image": "profilepic.jpg",
     "bio": "I am a Computer Science Major at Western University, where I have gained experience with Python, Java and group coding projects. I was VP Finance and a volunteer of Musicbox Western, which is an organization that provides free musicbox lessons to vulnerable children. I'm also a member of the Women in Tech Society.",
-    "hobbies": "In my free time I like cooking, in particular baking. I also enjoy working out through running and swimming. When I'm feeling lazy, I like to pass time watching TV shows, and listening to music (with my favourite shows and artists to the right). As a CS major, I like learning new technologies and coding small projects based on these tools.",
+    "hobbies": "In my free time I enjoy baking various desserts. I also like working out through running or swimming. When I'm feeling lazy, I prefer to pass time watching TV shows, and listening to music (with the shows and artists to the right). As a CS major, I like learning new technologies and coding small projects based on these tools.",
     "contactmessage": "Below are my contact details:",
     "email": "cyang377@uwo.ca",
     "phone": "555-555-5555",
@@ -33,10 +33,10 @@
     "skillmessage":"",
     "education":[
       {
-        "school":"Western University",
-        "degree":"Bachelors in Computer Science",
-        "graduated":"April 2021",
-        "description":""
+        "school": "Western University",
+        "degree": "Bachelors in Computer Science",
+        "graduated": "April 2021",
+        "description": "Relevant Courses: Data Structures and Algorithms, Operating Systems, Analysis of Algorithms, Software Project Management & Project Management for the Sciences"
       }
     ],
     "work":[
@@ -44,13 +44,13 @@
         "company":"CIBC",
         "title":"Application Developer ",
         "years":"Jan 2020 - Apr 2020",
-        "description":""
+        "description":"Relevant Tools/Languages: Python, C#, .NET, .NET ASP MVC, Swagger, GitHub, Jenkins"
       },
       {
         "company":"RBC",
         "title":"DevOps Practitioner",
         "years":"May 2019 - Dec 2019",
-        "description":""
+        "description":"Relevant Tools/Languages: Python, Groovy, GitHub, Bash, Jenkins"
       }
     ],
     "skills":[
@@ -95,19 +95,19 @@
       {
         "title": "Robert Onboarding Bot",
         "category": "A slackbot that streamlines the onboarding process at RBC",
-        "image": "fury-fighting-gear.jpg",
+        "image": "slackbot-1.jpeg",
         "url": "http://www.timbakerdev.com"
       },
       {
         "title": "Lean Coffee Voice App",
         "category": "A voice app to moderate a lean coffee meeting",
-        "image": "original-thai-food.jpg",
+        "image": "rasabot-1.jpg",
         "url": "http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
         "title":"Resume Website",
         "category":"A React based personal website",
-        "image":"personalwebsite.png",
+        "image":"personalwebsite-1.jpg",
         "url":"http://www.timbakerdev.com"
       }
     ]

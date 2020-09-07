@@ -61,7 +61,10 @@ class About extends Component {
             <h1>About Me</h1>
             <div className="row">
                 <div className="six columns">
-                    <Carousel itemsToShow={1} showArrows={false} children={images.map(images => <img src={images.src}/>)}>
+                    <Carousel itemsToShow={1}
+                        showArrows={false}
+                        children={images.map(images => <img src={images.src} />)}
+                        >
                     </Carousel>
                 </div>
                 <div className="six columns main-col">
