@@ -7,10 +7,10 @@
     "bio": "I am a Computer Science Major at Western University, where I have gained experience with Python, Java and group coding projects. I was VP Finance and a volunteer of Musicbox Western, which is an organization that provides free musicbox lessons to vulnerable children. I'm also a member of the Women in Tech Society.",
     "hobbies": "In my free time I enjoy baking various desserts. I also like working out through running or swimming. When I'm feeling lazy, I prefer to pass time watching TV shows, and listening to music (with the shows and artists to the right). As a CS major, I like learning new technologies and coding small projects based on these tools.",
     "contactmessage": "Below are my contact details:",
-    "email": "cyang377@uwo.ca",
-    "phone": "555-555-5555",
+    "email": "christine.qin.yang98@gmail.com",
+    "phone": "416-312-0543",
     "address": {
-      "city": "Markham",
+      "city": "Toronto",
       "province": "ON",
       "country": "Canada"
     },
@@ -89,7 +89,7 @@
       {
         "title": "QuickPay",
         "category": "A banking app feature that uses a QR code to transfer money",
-        "image": "canadian-wanderlust.jpg",
+        "image": "QuickPay.jpg",
         "url": "https://www.canadianwanderlust.com"
       },
       {
