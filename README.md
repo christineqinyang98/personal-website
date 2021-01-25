@@ -1,4 +1,7 @@
 # Christine's Personal Website
+
+Can be viewed from: https://christine-yang.live
+
 ## Includes:
 - Resume
 - Projects
