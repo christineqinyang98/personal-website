@@ -90,25 +90,25 @@
         "title": "QuickPay",
         "category": "A banking app feature that uses a QR code to transfer money",
         "image": "QuickPay.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "url": "https://www.figma.com/proto/JsZbRcox3VJOvhvrD5isyy/QuickPay?node-id=1%3A3&scaling=scale-down"
       },
       {
         "title": "Robert Onboarding Bot",
         "category": "A slackbot that streamlines the onboarding process at RBC",
         "image": "slackbot-1.jpeg",
-        "url": "http://www.timbakerdev.com"
+        "url": "https://christine-yang.live"
       },
       {
         "title": "Lean Coffee Voice App",
         "category": "A voice app to moderate a lean coffee meeting",
         "image": "rasabot-1.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "url": "https://github.com/christineqinyang98/"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based personal website",
-        "image":"personalwebsite-1.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Resume Website",
+        "category": "A React based personal website",
+        "image": "personalwebsite-1.jpg",
+        "url": "https://christine-yang.live"
       }
     ]
   }
